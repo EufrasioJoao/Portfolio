@@ -1,0 +1,33 @@
+aside {
+    display: block;
+    position: fixed;
+    left: 5%;
+    bottom: 0;
+    z-index: 3;
+}
+
+a {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.icon {
+    transition: 0.5s;
+}
+.icon:hover {
+    transform: translateY(-5px);
+    color: rgba(23, 209, 178, 0.63);
+}
+
+.line {
+    width: 1px;
+    height: 7rem;
+    background-color: #c4eeeed0;
+    margin-left: 15px;
+}
+
+@media (max-width: 670px) {
+    aside {
+        display: none;
+    }
+}

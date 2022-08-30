@@ -1,0 +1,131 @@
+.experience {
+    width: 100%;
+    margin: 115px 0;
+    padding-left: 10%;
+}
+
+.title, .work_title {
+    text-decoration: none;
+    color: #c4eeeed0;
+    font-family: monospace;
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.title:hover {
+    color: rgb(23, 209, 178);
+}
+.title:active {
+    color: rgba(17, 143, 120, 0.815);
+}
+.aqua_span, .work_span {
+    text-decoration: none;
+    color: rgb(23, 209, 178);
+    font-size: 1.2rem;
+}
+
+
+.row{
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+.left{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.right{    
+    position: relative;
+    flex-basis: 80%;
+}
+
+.place_of_work{
+    margin-bottom: 30px;
+    color:  #7fb2cad0;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.place_of_work:last-child{
+    margin-bottom: 0;
+}
+.work_clicked{
+    margin-bottom: 30px;
+    color: rgb(23, 209, 178);
+    border-left: 2px solid rgb(23, 209, 178);
+    padding-left: 15px;
+    cursor: pointer;
+}
+.work_clicked_last{
+    margin-bottom: 0;
+    color: rgb(23, 209, 178);
+    border-left: 2px solid rgb(23, 209, 178);
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.work_title {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+.work_span {
+    font-size: 1.2rem;
+}
+small{
+    color:  #7fb2cad0;
+}
+.ul{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-right: 30px;
+}
+.ul li{
+    margin: 10px 0 ;
+    font-size: 1rem;
+    list-style: disc;
+    color:  #7fb2cad0;
+    margin-left: 15px;
+}
+
+
+
+@media (max-width: 800px){
+    .row{    
+        width: 100%;
+    }
+    
+}
+@media (max-width: 705px){
+    .experience{
+        margin-top: 140px;
+    }
+}
+@media (max-width: 666px){
+    .eperience{
+        margin-left: -5%;
+    }
+}
+@media (max-width: 636px){
+    .row{
+        flex-direction: column;
+    }
+    .left{    
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .right{    
+        flex-basis: 100%;
+    } 
+}

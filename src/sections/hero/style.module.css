@@ -1,0 +1,106 @@
+.hero {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 180px;
+}
+.aqua_span {
+    color: rgb(23, 209, 178);
+}
+.violet_span {
+    color: rgba(135, 43, 177, 0.966);
+}
+.name {
+    font-size: 3.5rem;
+    margin-top: 10px;
+    color: #c3e4f1f5;
+}
+.job {
+    font-size: 3.3rem;
+    margin-bottom: 10px;
+    color: #85b1c5fd;
+}
+p {
+    color: #7fb2cad0;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.github_link {
+    padding: 10px 15px;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgb(23, 209, 178);
+    color: rgb(23, 209, 178);
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.github_link:hover {
+    background-color: rgba(23, 209, 178, 0.185);
+    color: rgb(175, 235, 225);
+}
+
+@media (max-width: 890px) {
+    .hero {
+        max-width: 100%;
+    }
+}
+@media (max-width: 790px) {
+    .name {
+        font-size: 3rem;
+    }
+    .job {
+        font-size: 2.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 670px) {
+    .hero {
+        margin-left: 0%;
+    }
+    .name {
+        font-size: 3.4rem;
+        margin: 15px 0;
+    }
+    .job {
+        margin: 10px 0;
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1rem;
+        margin: 35px 0;
+    }
+}
+@media (max-width: 550px) {
+    .hero{
+        padding-bottom: 40px;
+    }
+    .name {
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+    .job {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .github_link {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 530px) {
+    .name {
+        font-size: 2.7rem;
+    }
+}

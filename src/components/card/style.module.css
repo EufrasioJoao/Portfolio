@@ -1,0 +1,105 @@
+.card{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 25px;
+    border-radius: 10px;
+}
+.card_container{
+    position: relative;
+    height: 100%;
+}
+.card header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card header div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card header .card_icon{
+    cursor: pointer;
+}
+.project_name{
+    display: block;
+    color: #c4eeeed0;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.project_description{
+    display: block;
+    color:  #7fb2cad0;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.project_tecnologies{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+.project_tecnologies span{
+    display: block;
+    color:  #7fb2cad0;
+    font-size: 0.9rem;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+.title, .work_title {
+    text-decoration: none;
+    color: #c4eeeed0;
+    font-family: monospace;
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.title:hover {
+    color: rgb(23, 209, 178);
+}
+.title:active {
+    color: rgba(17, 143, 120, 0.815);
+}
+.aqua_span, .work_span {
+    text-decoration: none;
+    color: rgb(23, 209, 178);
+    font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 800px){
+    .row{    
+        width: 100%;
+    }
+    
+}
+@media (max-width: 705px){
+    .experience{
+        margin-top: 140px;
+    }
+}
+@media (max-width: 666px){
+    .eperience{
+        margin-left: -5%;
+    }
+}
+@media (max-width: 636px){
+    .row{
+        flex-direction: column;
+    }
+    .left{    
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .right{    
+        flex-basis: 100%;
+    } 
+}

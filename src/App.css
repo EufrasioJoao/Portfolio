@@ -1,0 +1,29 @@
+:root {
+    --background-primary: hsl(218, 23%, 23%);
+    --background-secondary: hsl(218, 36%, 16%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: #fff;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: var(--background-secondary);
+}
+.app {
+    z-index: 1;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: hsl(229, 76%, 66%);
+    border-radius: 15px;
+}

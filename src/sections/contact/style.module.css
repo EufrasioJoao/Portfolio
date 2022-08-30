@@ -1,0 +1,87 @@
+.contact {
+    width: 100%;
+    height: 85vh;
+    margin-top: 100px;
+    position: relative;
+}
+
+.contact header{
+    text-align: center;
+}
+.title{
+    color: #c4eeeed0;
+    font-family: monospace;
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+}
+.contact header span{
+    color: rgb(23, 209, 178);
+    font-size: 0.9rem;
+}
+.aqua_span{
+    color: rgb(23, 209, 178);
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+.p_container{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.phone{
+    font-size: .9rem;
+}
+.p_container a{
+    margin-top: 60px;
+    margin-left: 50%;
+    transform: translatex(-50%) ;
+    display: block;
+    width: 170px;
+    text-decoration: none;
+    color: rgb(23, 209, 178);
+    border: 1px solid rgb(23, 209, 178);
+    border-radius: 5px;
+    padding: 15px 0;
+}
+.p_container a:hover {
+    background-color: rgba(23, 209, 178, 0.185);
+    color: rgb(175, 235, 225);
+}
+
+.contact footer{
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    left: 50%;
+    transform: translatex(-50%) ;
+}
+.contact footer span{
+    font-size: .9rem;
+    color:  #7fb2cad0;
+    display: block;
+    margin-bottom: 5px;
+}
+.contact footer .colored{
+    display: inline;
+    text-decoration: none;
+    color: rgb(23, 209, 178);
+    cursor: pointer;
+}
+.contact footer .colored:hover {
+    color: violet;
+}
+
+
+
+
+@media (max-width: 900px){
+    .p_container{
+        width: 80%;
+    }
+}
+@media (max-width: 666px){
+    .p_container{
+        width: 100%;
+    }
+}
