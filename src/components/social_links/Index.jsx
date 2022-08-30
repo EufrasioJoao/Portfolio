@@ -18,7 +18,7 @@ export function SocialLinks() {
                     size={28}
                 />
             </a>
-            <a href="https://www.linkedin.com/in/eufrasio-joão-04a118248">
+            <a href="https://www.linkedin.com/in/eufrasio-joão-04a118248"  target="_blank">
                 <LinkedinLogo
                     className={style.icon}
                     color="#c4eeeed0"
