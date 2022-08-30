@@ -41,10 +41,10 @@ export const projects = [
     },
     {
         id: 6,
-        title: 'E-Commerce-Website-Design', 
+        title: 'E-Commerce-Website-Design-HTML-CSS', 
         description: 'This project is an e-commerce clone made with the help of the youtube channel Easy-Tutorials, I created a very similar copy of the original. In this project I only used vanila Js, HTML and CSS.',
         technologies: ['HTML', 'CSS', 'JavaScript'],
-        github_link: 'https://github.com/eufrasiojoao/e-commerce-website-design-html-css',
-        website_link: 'https://eufrasiojoao.github.io/e-commerce-website-design-html-css',
+        github_link: 'https://github.com/EufrasioJoao/E-comerce-website-design-HTML-CSS',
+        website_link: 'https://eufrasiojoao.github.io/E-comerce-website-design-HTML-CSS',
     }
 ]
