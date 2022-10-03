@@ -9,11 +9,11 @@ export const projects = [
     },
     /*{
         id: 2,
-        title: 'Spotify-Clone-Web-App', 
-        description: 'A web application for visualizing personalized data from Spotify. Where you can view top artists, top tracks, recently played tracks, and detailed audio information about each track and many more things.',
-        technologies: ['React', 'Spotify API', 'Styled Compoents'],
-        github_link: '/',
-        website_link: '/',
+        title: 'Jv-ucm-Web-App', 
+        description: 'A exclusive web application where you can share your knowledge with other students and teachers of the Catolic University of Mozambique... to enter you need an UCM email.',
+        technologies: ['React', 'Express', 'Socket.io', 'Mysql'],
+        github_link: 'https://github.com/EufrasioJoao/Jovens-visionarios-UCM',
+        website_link: 'https://jv-ucm.netlify.app/',
     },*/
     /*{
         id: 3,
