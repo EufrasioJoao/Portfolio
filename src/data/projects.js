@@ -23,14 +23,6 @@ export const projects = [
         github_link: '/',
         website_link: '/',
     },*/
-    /*{
-        id: 5,
-        title: 'Blog-Web-Application', 
-        description: 'Cooming Soon...',
-        technologies: ['React', 'Express', 'Mysql'],
-        github_link: '/',
-        website_link: '/',
-    },*/
     {
         id: 6,
         title: 'E-Commerce-Website-Design-HTML-CSS', 
@@ -38,5 +30,13 @@ export const projects = [
         technologies: ['HTML', 'CSS', 'JavaScript'],
         github_link: 'https://github.com/EufrasioJoao/E-comerce-website-design-HTML-CSS',
         website_link: 'https://eufrasiojoao.github.io/E-comerce-website-design-HTML-CSS',
-    }
+    },
+    {
+        id: 5,
+        title: 'Construction Landing Page', 
+        description: 'A website made with HTML CSS and JS, it's just a landing page',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        github_link: 'https://eufrasiojoao.github.io/Constrution-website-HTML-CSS/',
+        website_link: 'https://github.com/EufrasioJoao/Constrution-website-HTML-CSS',
+    },
 ]
