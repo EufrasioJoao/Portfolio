@@ -7,14 +7,14 @@ export const projects = [
         github_link: 'https://github.com/EufrasioJoao/Chat-website',
         website_link: 'https://chat-web-application.netlify.app/',
     },
-    /*{
+    {
         id: 2,
         title: 'Jv-ucm-Web-App', 
         description: 'A exclusive web application where you can share your knowledge with other students and teachers of the Catolic University of Mozambique... to enter you need an UCM email.',
         technologies: ['React', 'Express', 'Socket.io', 'Mysql'],
         github_link: 'https://github.com/EufrasioJoao/Jovens-visionarios-UCM',
         website_link: 'https://jv-ucm.netlify.app/',
-    },*/
+    },
     /*{
         id: 3,
         title: 'Movies-Web-Application', 
