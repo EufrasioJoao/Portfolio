@@ -9,7 +9,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: 'Jv-ucm-Web-App', 
+        title: 'Jovens-visionarios-UCM', 
         description: 'A exclusive web application where you can share your knowledge with other students and teachers of the Catolic University of Mozambique... to enter you need an UCM email.',
         technologies: ['React', 'Express', 'Socket.io', 'Mysql'],
         github_link: 'https://github.com/EufrasioJoao/Jovens-visionarios-UCM',
