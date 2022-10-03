@@ -29,7 +29,7 @@ export const projects = [
         description: 'This project is an e-commerce clone made with the help of the youtube channel Easy-Tutorials, I created a very similar copy of the original. In this project I only used vanila Js, HTML and CSS.',
         technologies: ['HTML', 'CSS', 'JavaScript'],
         github_link: 'https://github.com/EufrasioJoao/E-comerce-website-design-HTML-CSS',
-        website_link: 'https://eufrasiojoao.github.io/E-comerce-website-design-HTML-CSS',
+        website_link: 'https://eufrasiojoao.github.io/Constrution-website-HTML-CSS/',
     },
     {
         id: 5,
