@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         title: 'Chat-Web-Application', 
-        description: 'In this project I created a chat application using websockets, that allow users to share messages with each others in different rooms. I made this application with a few fuctionalities, with the main focus on shring messages.',
+        description: 'In this project I created a chat application using websockets, that allow users to share messages with each others in different rooms. I made this application with a few fuctionalities, with the main focus on sharing messages.',
         technologies: ['React', 'Express', 'Socket.io', 'Mysql'],
         github_link: 'https://github.com/EufrasioJoao/Chat-website',
         website_link: 'https://chat-web-application.netlify.app/',
