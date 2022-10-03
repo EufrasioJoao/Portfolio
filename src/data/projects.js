@@ -36,7 +36,7 @@ export const projects = [
         title: 'Construction Landing Page', 
         description: "A website made with HTML CSS and JS, it is just a landing page",
         technologies: ['HTML', 'CSS', 'JavaScript'],
-        github_link: 'https://eufrasiojoao.github.io/Constrution-website-HTML-CSS/',
-        website_link: 'https://github.com/EufrasioJoao/Constrution-website-HTML-CSS',
+        website_link: 'https://eufrasiojoao.github.io/Constrution-website-HTML-CSS/',
+        github_link: 'https://github.com/EufrasioJoao/Constrution-website-HTML-CSS',
     },
 ]
