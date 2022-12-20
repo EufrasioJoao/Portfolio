@@ -1,11 +1,19 @@
 export const projects = [
     {
         id: 1,
-        title: 'Chat-Web-Application', 
+        title: 'English Learning Platform', 
         description: 'In this project I created an application that helps people learn english, It was inspired by rocketseat.',
         technologies: ['React', 'Express', 'Mysql'],
         github_link: '#',
         website_link: 'https://einsrocket.netlify.app/',
+    },
+     {
+        id: 1,
+        title: 'Binance UI Clone', 
+        description: 'In this project I created an application that lucks like binance.',
+        technologies: ['React'],
+        github_link: 'https://github.com/EufrasioJoao/Binance-UI-clone',
+        website_link: 'https://binance-ui-clone.netlify.app/',
     },
    
     {
